@@ -12,7 +12,7 @@
 header {
     background-color: #e579e6;
     height: 80px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
 
 .clearfix::after {
@@ -24,10 +24,39 @@ header {
 .yellow-box {
     background-color: #e1d67a;
     height: 400px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
 
 .blue-box {
     background-color: #0086ff;
-    height: 500px;
+    min-height: 500px;
+    margin-bottom: 8px;
+}
+
+.blue-box-row {
+    background-color: #abcfe7;
+    min-height: 80px;
+    margin-bottom: 16px;
+}
+
+.blue-box-left-section {
+    background-color: #abcfe7;
+    min-height: 390px;
+    float: left;
+    width: 20%;
+}
+
+.blue-box-middle-section {
+    background-color: #abcfe7;
+    min-height: 390px;
+    float: left;
+    width: calc(60% - 20px);
+    margin-left: 10px;
+}
+
+.blue-box-right-section {
+    background-color: #abcfe7;
+    min-height: 390px;
+    float: right;
+    width: 20%;
 }
