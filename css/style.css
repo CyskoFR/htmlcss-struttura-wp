@@ -6,16 +6,28 @@
 
 .container {
     width: 1000px;
-    margin: 10px;
+    margin: auto;
 }
 
 header {
     background-color: #e579e6;
     height: 80px;
+    margin-bottom: 10px;
 }
 
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.yellow-box {
+    background-color: #e1d67a;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.blue-box {
+    background-color: #0086ff;
+    height: 500px;
 }
